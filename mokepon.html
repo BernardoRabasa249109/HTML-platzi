@@ -1,61 +1,65 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8" />
-        <title>MOKEPON!</title>
-        <script src="./js/mokepon.js"></script>
+  <head>
+    <meta charset="utf-8" />
+    <title>MOKEPON!</title>
+    <script src="./js/mokepon.js"></script>
+  </head>
+  <body>
+    <h1>MOKEPON! 🔥💧🌱</h1>
 
-    </head>
-    <body>
-        <h1>MOKEPON! 🔥💧🌱</h1>
+    <section id="seleccionar-mascota">
+      <h2>Elige tu mascota: 🔥💧🌱</h2>
 
-        <section id="seleccionar-mascota">
-            <h2>Elige tu mascota: 🔥💧🌱</h2>
+      <input type="radio" name="mascota" id="hipodoge" />
+      <label for="hipodoge">Hipodoge</label> <br />
 
-            <input type="radio" name="mascota"  id="hipodoge" />
-            <label for="hipodoge">Hipodoge</label> <br>
+      <input type="radio" name="mascota" id="capipepo" />
+      <label for="capipepo">Capipepo</label> <br />
 
-            <input type="radio" name="mascota"  id="capipepo" />
-            <label for="capipepo">Capipepo</label> <br>
+      <input type="radio" name="mascota" id="ratigueya" />
+      <label for="ratigueya">Ratigueya</label> <br />
 
-            <input type="radio" name="mascota"  id="ratigueya" />
-            <label for="ratigueya">Ratigueya</label> <br>
+      <input type="radio" name="mascota" id="langostelvis" />
+      <label for="langostelvis">Langostelvis</label> <br />
 
-            <input type="radio" name="mascota"  id="langostelvis" />
-            <label for="langostelvis">Langostelvis</label> <br>
+      <input type="radio" name="mascota" id="yucapalma" />
+      <label for="yucapalma">Yucapalma</label> <br />
 
-            <input type="radio" name="mascota"  id="yucapalma" />
-            <label for="yucapalma">Yucapalma</label> <br>
+      <input type="radio" name="mascota" id="pydos" />
+      <label for="pydos">Pydos</label> <br />
 
-            <input type="radio" name="mascota"  id="pydos" />
-            <label for="pydos">Pydos</label> <br>
+      <!-- MASCOTAS -->
 
-            <!-- MASCOTAS -->
+      <button id="boton-mascota">Seleccionar</button>
+    </section>
 
+    <section id="seleccionar-ataque">
+      <h2>Elige tu ataque:</h2>
 
-            <button id="boton-mascota">Seleccionar</button>
-        </section>
+      <p>Tu mascota <span id="mascota-jugador"></span> tiene <span>3</span> vidas ♥️ ♥️ ♥️</p>
+      <p>
+        La mascota <span id="mascota-enemigo"></span> del enemigo tiene <span>3</span> vidas ♥️ ♥️
+        ♥️ ♥️ ♥️ ♥️♥️ ♥️ ♥️♥️ ♥️ ♥️♥️ ♥️ ♥️♥️ ♥️ ♥️♥️ ♥️ ♥️♥️ ♥️ ♥️♥️ ♥️ ♥️♥️ ♥️ ♥️♥️ ♥️ ♥️♥️ ♥️
+        ♥️♥️ ♥️ ♥️♥️ ♥️ ♥️♥️ ♥️ ♥️♥️ ♥️ ♥️♥️ ♥️ ♥️♥️ ♥️ ♥️♥️ ♥️ ♥️♥️ ♥️ ♥️♥️ ♥️ ♥️♥️ ♥️ ♥️♥️ ♥️ ♥️♥️
+        ♥️ ♥️♥️ ♥️ ♥️♥️ ♥️ ♥️♥️ ♥️ ♥️♥️ ♥️ ♥️♥️ ♥️ ♥️♥️ ♥️ ♥️♥️ ♥️ ♥️♥️ ♥️ ♥️♥️ ♥️ ♥️♥️ ♥️ ♥️♥️ ♥️
+        ♥️♥️ ♥️ ♥️♥️ ♥️ ♥️♥️ ♥️ ♥️♥️ ♥️ ♥️♥️ ♥️ ♥️♥️ ♥️ ♥️♥️ ♥️ ♥️♥️ ♥️ ♥️♥️ ♥️ ♥️♥️ ♥️ ♥️♥️ ♥️ ♥️♥️
+        ♥️ ♥️♥️ ♥️ ♥️♥️ ♥️ ♥️♥️ ♥️ ♥️♥️ ♥️ ♥️♥️ ♥️ ♥️♥️ ♥️ ♥️♥️ ♥️ ♥️♥️ ♥️ ♥️♥️ ♥️ ♥️
+      </p>
 
-        <section id="seleccionar-ataque">
-            <h2>Elige tu ataque:</h2>
+      <p>
+        <button id="boton-fuego">Fuego 🔥</button>
+        <button id="boton-agua">Agua 💧</button>
+        <button id="boton-tierra">Tierra 🌱</button>
+      </p>
+    </section>
 
-            <P>Tu mascota <span id="mascota-jugador"></span> tiene <span>3</span> vidas ♥️ ♥️ ♥️</P>
-            <P>La mascota <span id="mascota-enemigo"></span> del enemigo tiene <span>3</span> vidas ♥️ ♥️ ♥️</P>
+    <section id="mensajes">
+      <p>Tu mascotaaaaa ataco con FUEGO, la mascota del enemigo ataco con TIERRA - GANASTE 🎆</p>
+    </section>
 
-            <p>
-                <button id="boton-fuego">Fuego 🔥</button>
-                <button id="boton-agua">Agua 💧</button>
-                <button id="boton-tierra">Tierra 🌱</button>
-            </p>
-        </section>
-
-        <section id="mensajes">
-            <p>Tu mascotaaaaa ataco con FUEGO, la mascota del enemigo ataco con TIERRA - GANASTE 🎆</p>
-        </section>
-
-        <section id="reiniciar">
-            <button id="boton-reiniciar">Reiniciar</button>
-        </section>
-
-    </body>
+    <section id="reiniciar">
+      <button id="boton-reiniciar">Reiniciar</button>
+    </section>
+  </body>
 </html>
