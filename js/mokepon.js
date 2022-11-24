@@ -42,7 +42,7 @@ function seleccionarMascotaEnemigo () {
     } else if (ataqueAleatorio == 2){
         spanMascotaEnemigo.innerHTML = "Capipepo"
     } else {
-        spanMascotaEnemigo.innerHTML = "Ratigueyaxcvxcvxcvxcvxcvxcvxcvxcvxcv"
+        spanMascotaEnemigo.innerHTML = "Ratigueya"
     }
 }
 
