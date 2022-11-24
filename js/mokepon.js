@@ -33,7 +33,7 @@ function seleccionarMascotaJugador() {
     seleccionarMascotaEnemigo()
 }
 
-function seleccionarMascotaEnemigo (){
+function seleccionarMascotaEnemigo () {
     let ataqueAleatorio = aleatorio(1,3)
     let spanMascotaEnemigo = document.getElementById("mascota-enemigo")
 
@@ -42,7 +42,7 @@ function seleccionarMascotaEnemigo (){
     } else if (ataqueAleatorio == 2){
         spanMascotaEnemigo.innerHTML = "Capipepo"
     } else {
-        spanMascotaEnemigo.innerHTML = "Ratigueya"
+        spanMascotaEnemigo.innerHTML = "Ratigueyaxcvxcvxcvxcvxcvxcvxcvxcvxcv"
     }
 }
 
