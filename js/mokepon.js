@@ -57,7 +57,7 @@ function ataqueAgua(){
 }
 
 function ataqueTierra(){
-    ataqueJugador = "TIERRA"
+    ataqueJugador = "TIERRAaaaaaaa"
     alert(ataqueJugador)
 }
 
